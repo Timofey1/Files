@@ -40,7 +40,7 @@ def addProduct(linkToProduct, price, title, article, images):
 
 
 
-url = "https://www.pullandbear.com/ru/ru/%D0%B4%D0%BB%D1%8F-%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD/%D0%BE%D0%B1%D1%83%D0%B2%D1%8C/%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C-%D0%B2%D1%81%D0%B5-c670010.html?isMobile=True"
+url = "https://sbpullbear.empathybroker.com/sb-pullbear/services/search?%D1%87&q=%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0&lang=ru&store=25009522&catalogue=20309410&warehouse=22109405&start=0&rows=15"
 
 headers = {
     'User-Agent': "User-Agent:Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"}
@@ -76,5 +76,5 @@ for url in noscript[-1].find_all('a'):
             else:
                 break
         article = info["mpn"]
-        addProduct(href, price, title, article, images)
+        # addProduct(href, price, title, article, images)
         print('[+]')
