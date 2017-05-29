@@ -3,3 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 
 url = "https://www.kinopoisk.ru/film/522/"
+
+html = requests.get(url).text
+print(html)

@@ -42,8 +42,9 @@ url = "https://www.kinopoisk.ru/film/522/"
 
 act = []
 html = requests.get(url).text
-soup = BeautifulSoup(html, "html5lib")
+print(html)
 
+soup = BeautifulSoup(html, "html5lib")
 filmname = soup.find("h1", {'class': 'moviename-big'}).text
 actors = soup.findAll("li", {'itemprop': "actors"})
 for actor in actors:
@@ -53,7 +54,7 @@ for actor in actors:
         act.append(Actor(href.get("href"), actor.text, filmname))
 
 del act[-1]
-
+print(act)
 # -----------------------------------------------------
 
 db = DB("C:\\Users\\atyunyatkin\\Downloads\\db_tab1 (1).sqlite")
