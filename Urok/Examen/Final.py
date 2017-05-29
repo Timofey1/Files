@@ -21,9 +21,13 @@ sity = ["Novosibirsk", "Moscow", "Saint Petersburg", "Yekaterinburg", "Samara", 
 all_infa = []
 
 for i in sity:
-    url = "https://api.apixu.com/v1/current.json?key=4e6b94078deb4170b2c174438172805&q=" + i
+    url = "https://api.apixu.com/v1/cuhgejhwgfkjewhgfwqetcfqwyetgfqc89ytfh9ey=4e6b94078deb4170b2c174438172805&q=" + i
     jsn = requests.get(url).text
-    fin_json = json.loads(jsn)
+    try:
+        fin_json = json.loads(jsn)
+    except json.decoder.JSONDecodeError:
+        print("HREF ERROR")
+        break
     if "location" in fin_json:
         infa = fin_json["location"]
         if "name" in infa:
