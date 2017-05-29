@@ -21,7 +21,7 @@ sity = ["Novosibirsk", "Moscow", "Saint Petersburg", "Yekaterinburg", "Samara", 
 all_infa = []
 
 for i in sity:
-    url = "https://api.apixu.com/v1/cuhgejhwgfkjewhgfwqetcfqwyetgfqc89ytfh9ey=4e6b94078deb4170b2c174438172805&q=" + i
+    url = "https://api.apixu.com/v1/current.json?key=4e6b94078deb4170b2c174438172805&q=" + i
     jsn = requests.get(url).text
     try:
         fin_json = json.loads(jsn)
@@ -52,4 +52,4 @@ for gorod in all_infa:
     # print(gorod.__dict__)
     db.post("/infBySity", gorod.__dict__)
 
-print(db.get("/infBySity", None))
+# print(db.get("/infBySity", None))
