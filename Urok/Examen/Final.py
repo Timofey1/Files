@@ -4,6 +4,7 @@ import json
 from firebase import firebase
 firebase_url = "https://school-92a93.firebaseio.com/"
 
+
 class Pogoda:
     sity_name = ""
     localtime = ""
@@ -16,7 +17,7 @@ class Pogoda:
         self.temp_c = temp_c
         self.text = text
 
-sity = ["Novosibirsk", "Moscow", "Saint Petersburg", "Yekaterinburg", "Samara", "Omsk", "Kazan", "Chelyabinsk", "Ufa","Volgograd"]
+sity = ["Novosibirsk", "Moscow", "Saint Petersburg", "Yekaterinburg", "Samara", "Omsk", "Kazan", "Chelyabinsk", "Ufa", "Volgograd"]
 
 all_infa = []
 
@@ -46,10 +47,12 @@ for i in sity:
     all_infa.append(Pogoda(sity_name, localtime, temp_c, text))
 # print(all_infa)
 
-db = firebase.FirebaseApplication(firebase_url)
 
-for gorod in all_infa:
-    # print(gorod.__dict__)
-    db.post("/infBySity", gorod.__dict__)
+def uploadinfo():
+    db = firebase.FirebaseApplication(firebase_url)
+    for gorod in all_infa:
+        # print(gorod.__dict__)
+        db.post("/infBySity", gorod.__dict__)
 
-# print(db.get("/infBySity", None))
+    # print(db.get("/infBySity", None))
+
