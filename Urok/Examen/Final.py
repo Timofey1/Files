@@ -48,7 +48,7 @@ for i in sity:
 # print(all_infa)
 
 
-def uploadinfo():
+def uploadinfo(all_infa):
     db = firebase.FirebaseApplication(firebase_url)
     for gorod in all_infa:
         # print(gorod.__dict__)
@@ -56,3 +56,4 @@ def uploadinfo():
 
     # print(db.get("/infBySity", None))
 
+uploadinfo(all_infa)
