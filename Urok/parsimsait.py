@@ -20,6 +20,7 @@ class Sneakers_release:
         self.release_date = date
 
 
+
 class Description:
     descrption = " "
     imgs = []

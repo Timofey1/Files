@@ -1,0 +1,834 @@
+Thu Aug  3 19:43:53 2017	proxyparser:	http-proxies cleared
+Thu Aug  3 19:43:53 2017	proxyparser:	https-proxies cleared
+Thu Aug  3 19:43:54 2017	proxyparser:	Checking 1/49 proxy: 178.32.218.91:80
+Thu Aug  3 19:44:09 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'178.32.218.91', port=80): Read timed out. (read timeout=15)
+Thu Aug  3 19:44:24 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:44:24 2017	:	
+Thu Aug  3 19:44:24 2017	proxyparser:	Checking 2/49 proxy: 213.198.241.6:8080
+Thu Aug  3 19:44:35 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:44:35 2017	proxyparser:	added http-proxy: 213.198.241.6:8080
+Thu Aug  3 19:44:52 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:44:52 2017	proxyparser:	added https-proxy: 213.198.241.6:8080
+Thu Aug  3 19:44:52 2017	:	
+Thu Aug  3 19:44:52 2017	proxyparser:	Checking 3/49 proxy: 103.86.50.66:8080
+Thu Aug  3 19:45:09 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'103.86.50.66', port=8080): Read timed out. (read timeout=15)
+Thu Aug  3 19:45:28 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:45:28 2017	:	
+Thu Aug  3 19:45:28 2017	proxyparser:	Checking 4/49 proxy: 210.101.131.231:8080
+Thu Aug  3 19:45:42 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:45:42 2017	proxyparser:	added http-proxy: 210.101.131.231:8080
+Thu Aug  3 19:45:49 2017	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
+Thu Aug  3 19:45:49 2017	:	
+Thu Aug  3 19:45:49 2017	proxyparser:	Checking 5/49 proxy: 5.135.181.10:3128
+Thu Aug  3 19:45:53 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:45:53 2017	proxyparser:	added http-proxy: 5.135.181.10:3128
+Thu Aug  3 19:45:55 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:45:55 2017	proxyparser:	added https-proxy: 5.135.181.10:3128
+Thu Aug  3 19:45:55 2017	:	
+Thu Aug  3 19:45:55 2017	proxyparser:	Checking 6/49 proxy: 1.209.188.197:8080
+Thu Aug  3 19:46:12 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'1.209.188.197', port=8080): Read timed out. (read timeout=15)
+Thu Aug  3 19:46:21 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 403 Forbidden',)))
+Thu Aug  3 19:46:21 2017	:	
+Thu Aug  3 19:46:21 2017	proxyparser:	Checking 7/49 proxy: 47.93.255.119:80
+Thu Aug  3 19:46:36 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'47.93.255.119', port=80): Read timed out. (read timeout=15)
+Thu Aug  3 19:47:03 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Read timed out. (read timeout=15)
+Thu Aug  3 19:47:03 2017	:	
+Thu Aug  3 19:47:03 2017	proxyparser:	Checking 8/49 proxy: 207.154.219.238:8888
+Thu Aug  3 19:47:03 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:47:03 2017	proxyparser:	added http-proxy: 207.154.219.238:8888
+Thu Aug  3 19:47:04 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:47:04 2017	proxyparser:	added https-proxy: 207.154.219.238:8888
+Thu Aug  3 19:47:04 2017	:	
+Thu Aug  3 19:47:04 2017	proxyparser:	Checking 9/49 proxy: 46.218.73.162:80
+Thu Aug  3 19:47:08 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:47:08 2017	proxyparser:	added http-proxy: 46.218.73.162:80
+Thu Aug  3 19:47:08 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error(54, 'Connection reset by peer')))
+Thu Aug  3 19:47:08 2017	:	
+Thu Aug  3 19:47:08 2017	proxyparser:	Checking 10/49 proxy: 112.140.184.136:3128
+Thu Aug  3 19:47:14 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:47:14 2017	proxyparser:	added http-proxy: 112.140.184.136:3128
+Thu Aug  3 19:47:31 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:47:31 2017	:	
+Thu Aug  3 19:47:31 2017	proxyparser:	Checking 11/49 proxy: 139.59.117.11:443
+Thu Aug  3 19:47:46 2017	proxyparser:	http://sitespy.ru: 403
+Thu Aug  3 19:47:50 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:47:50 2017	proxyparser:	added https-proxy: 139.59.117.11:443
+Thu Aug  3 19:47:50 2017	:	
+Thu Aug  3 19:47:50 2017	proxyparser:	Checking 12/49 proxy: 188.247.239.217:3128
+Thu Aug  3 19:47:50 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'188.247.239.217', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x10d4eb990>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:47:50 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10d503850>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:47:50 2017	:	
+Thu Aug  3 19:47:50 2017	proxyparser:	Checking 13/49 proxy: 89.38.8.130:88
+Thu Aug  3 19:48:02 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:02 2017	proxyparser:	added http-proxy: 89.38.8.130:88
+Thu Aug  3 19:48:17 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:48:17 2017	:	
+Thu Aug  3 19:48:17 2017	proxyparser:	Checking 14/49 proxy: 178.239.177.210:80
+Thu Aug  3 19:48:18 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:18 2017	proxyparser:	added http-proxy: 178.239.177.210:80
+Thu Aug  3 19:48:18 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 500 Internal Server Error',)))
+Thu Aug  3 19:48:18 2017	:	
+Thu Aug  3 19:48:18 2017	proxyparser:	Checking 15/49 proxy: 212.237.23.169:3128
+Thu Aug  3 19:48:18 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:18 2017	proxyparser:	added http-proxy: 212.237.23.169:3128
+Thu Aug  3 19:48:29 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:48:29 2017	proxyparser:	added https-proxy: 212.237.23.169:3128
+Thu Aug  3 19:48:29 2017	:	
+Thu Aug  3 19:48:29 2017	proxyparser:	Checking 16/49 proxy: 138.201.186.128:80
+Thu Aug  3 19:48:30 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:30 2017	proxyparser:	added http-proxy: 138.201.186.128:80
+Thu Aug  3 19:48:32 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 400 Bad Request',)))
+Thu Aug  3 19:48:32 2017	:	
+Thu Aug  3 19:48:32 2017	proxyparser:	Checking 17/49 proxy: 186.46.41.106:3128
+Thu Aug  3 19:48:32 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'186.46.41.106', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x10d4eb550>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:48:32 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10d4eb990>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:48:32 2017	:	
+Thu Aug  3 19:48:32 2017	proxyparser:	Checking 18/49 proxy: 186.46.41.106:3130
+Thu Aug  3 19:48:33 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'186.46.41.106', port=3130): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x10d4eb650>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:48:33 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10d4eb390>: Failed to establish a new connection: [Errno 61] Connection refused',)))
+Thu Aug  3 19:48:33 2017	:	
+Thu Aug  3 19:48:33 2017	proxyparser:	Checking 19/49 proxy: 117.54.120.10:3129
+Thu Aug  3 19:48:34 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:34 2017	proxyparser:	added http-proxy: 117.54.120.10:3129
+Thu Aug  3 19:48:39 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:48:39 2017	proxyparser:	added https-proxy: 117.54.120.10:3129
+Thu Aug  3 19:48:39 2017	:	
+Thu Aug  3 19:48:39 2017	proxyparser:	Checking 20/49 proxy: 37.151.43.202:3128
+Thu Aug  3 19:48:40 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:40 2017	proxyparser:	added http-proxy: 37.151.43.202:3128
+Thu Aug  3 19:48:41 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:48:41 2017	proxyparser:	added https-proxy: 37.151.43.202:3128
+Thu Aug  3 19:48:41 2017	:	
+Thu Aug  3 19:48:41 2017	proxyparser:	Checking 21/49 proxy: 221.133.44.142:8080
+Thu Aug  3 19:48:44 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:48:44 2017	proxyparser:	added http-proxy: 221.133.44.142:8080
+Thu Aug  3 19:48:51 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:48:51 2017	proxyparser:	added https-proxy: 221.133.44.142:8080
+Thu Aug  3 19:48:51 2017	:	
+Thu Aug  3 19:48:51 2017	proxyparser:	Checking 22/49 proxy: 84.19.190.113:80
+Thu Aug  3 19:49:00 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:49:00 2017	proxyparser:	added http-proxy: 84.19.190.113:80
+Thu Aug  3 19:49:11 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 500 Internal Server Error',)))
+Thu Aug  3 19:49:11 2017	:	
+Thu Aug  3 19:49:11 2017	proxyparser:	Checking 23/49 proxy: 175.139.173.45:80
+Thu Aug  3 19:49:28 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'175.139.173.45', port=80): Read timed out. (read timeout=15)
+Thu Aug  3 19:49:43 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10d4eb990>, u'Connection to 175.139.173.45 timed out. (connect timeout=15)'))
+Thu Aug  3 19:49:43 2017	:	
+Thu Aug  3 19:49:43 2017	proxyparser:	Checking 24/49 proxy: 119.254.102.90:8080
+Thu Aug  3 19:50:05 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:50:05 2017	proxyparser:	added http-proxy: 119.254.102.90:8080
+Thu Aug  3 19:50:33 2017	proxyparser:	https://pythonworld.ru: ('_ssl.c:574: The handshake operation timed out',)
+Thu Aug  3 19:50:33 2017	:	
+Thu Aug  3 19:50:33 2017	proxyparser:	Checking 25/49 proxy: 34.249.126.25:80
+Thu Aug  3 19:50:47 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:50:47 2017	proxyparser:	added http-proxy: 34.249.126.25:80
+Thu Aug  3 19:51:02 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:51:02 2017	:	
+Thu Aug  3 19:51:02 2017	proxyparser:	Checking 26/49 proxy: 94.130.21.81:80
+Thu Aug  3 19:51:15 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:51:15 2017	proxyparser:	added http-proxy: 94.130.21.81:80
+Thu Aug  3 19:51:27 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 500 Internal Server Error',)))
+Thu Aug  3 19:51:27 2017	:	
+Thu Aug  3 19:51:27 2017	proxyparser:	Checking 27/49 proxy: 52.174.89.111:80
+Thu Aug  3 19:51:31 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:51:31 2017	proxyparser:	added http-proxy: 52.174.89.111:80
+Thu Aug  3 19:51:35 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 500 Internal Server Error',)))
+Thu Aug  3 19:51:35 2017	:	
+Thu Aug  3 19:51:35 2017	proxyparser:	Checking 28/49 proxy: 174.138.37.243:80
+Thu Aug  3 19:51:40 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:51:40 2017	proxyparser:	added http-proxy: 174.138.37.243:80
+Thu Aug  3 19:51:54 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 500 Internal Server Error',)))
+Thu Aug  3 19:51:54 2017	:	
+Thu Aug  3 19:51:54 2017	proxyparser:	Checking 29/49 proxy: 187.217.189.229:8080
+Thu Aug  3 19:52:09 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'187.217.189.229', port=8080): Read timed out. (read timeout=15)
+Thu Aug  3 19:52:25 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:52:25 2017	:	
+Thu Aug  3 19:52:25 2017	proxyparser:	Checking 30/49 proxy: 212.56.139.252:80
+Thu Aug  3 19:52:51 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'212.56.139.252', port=80): Read timed out. (read timeout=15)
+Thu Aug  3 19:53:06 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:53:06 2017	:	
+Thu Aug  3 19:53:06 2017	proxyparser:	Checking 31/49 proxy: 79.133.33.3:8118
+Thu Aug  3 19:53:06 2017	proxyparser:	http://sitespy.ru: ('Connection aborted.', BadStatusLine("''",))
+Thu Aug  3 19:53:06 2017	proxyparser:	https://pythonworld.ru: ('Connection aborted.', BadStatusLine("''",))
+Thu Aug  3 19:53:06 2017	:	
+Thu Aug  3 19:53:06 2017	proxyparser:	Checking 32/49 proxy: 144.76.32.78:8080
+Thu Aug  3 19:53:08 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:53:08 2017	proxyparser:	added http-proxy: 144.76.32.78:8080
+Thu Aug  3 19:53:15 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 400 Bad Request',)))
+Thu Aug  3 19:53:15 2017	:	
+Thu Aug  3 19:53:15 2017	proxyparser:	Checking 33/49 proxy: 120.25.154.32:8080
+Thu Aug  3 19:53:18 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:53:18 2017	proxyparser:	added http-proxy: 120.25.154.32:8080
+Thu Aug  3 19:53:25 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:53:25 2017	proxyparser:	added https-proxy: 120.25.154.32:8080
+Thu Aug  3 19:53:25 2017	:	
+Thu Aug  3 19:53:25 2017	proxyparser:	Checking 34/49 proxy: 89.40.115.161:1189
+Thu Aug  3 19:53:26 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:53:26 2017	proxyparser:	added http-proxy: 89.40.115.161:1189
+Thu Aug  3 19:53:27 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:53:27 2017	proxyparser:	added https-proxy: 89.40.115.161:1189
+Thu Aug  3 19:53:27 2017	:	
+Thu Aug  3 19:53:27 2017	proxyparser:	Checking 35/49 proxy: 139.59.125.77:443
+Thu Aug  3 19:53:28 2017	proxyparser:	http://sitespy.ru: 403
+Thu Aug  3 19:53:31 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:53:31 2017	proxyparser:	added https-proxy: 139.59.125.77:443
+Thu Aug  3 19:53:31 2017	:	
+Thu Aug  3 19:53:31 2017	proxyparser:	Checking 36/49 proxy: 80.79.118.214:80
+Thu Aug  3 19:53:42 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:53:42 2017	proxyparser:	added http-proxy: 80.79.118.214:80
+Thu Aug  3 19:53:50 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:53:50 2017	proxyparser:	added https-proxy: 80.79.118.214:80
+Thu Aug  3 19:53:50 2017	:	
+Thu Aug  3 19:53:50 2017	proxyparser:	Checking 37/49 proxy: 117.239.66.73:80
+Thu Aug  3 19:54:06 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'117.239.66.73', port=80): Read timed out. (read timeout=15)
+Thu Aug  3 19:54:23 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:54:23 2017	:	
+Thu Aug  3 19:54:23 2017	proxyparser:	Checking 38/49 proxy: 45.77.33.0:8080
+Thu Aug  3 19:54:24 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:24 2017	proxyparser:	added http-proxy: 45.77.33.0:8080
+Thu Aug  3 19:54:25 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 403 Forbidden',)))
+Thu Aug  3 19:54:25 2017	:	
+Thu Aug  3 19:54:25 2017	proxyparser:	Checking 39/49 proxy: 144.217.242.194:8080
+Thu Aug  3 19:54:26 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:26 2017	proxyparser:	added http-proxy: 144.217.242.194:8080
+Thu Aug  3 19:54:28 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:54:28 2017	proxyparser:	added https-proxy: 144.217.242.194:8080
+Thu Aug  3 19:54:28 2017	:	
+Thu Aug  3 19:54:28 2017	proxyparser:	Checking 40/49 proxy: 66.70.191.5:3128
+Thu Aug  3 19:54:29 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:29 2017	proxyparser:	added http-proxy: 66.70.191.5:3128
+Thu Aug  3 19:54:30 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 503 Service Unavailable',)))
+Thu Aug  3 19:54:30 2017	:	
+Thu Aug  3 19:54:30 2017	proxyparser:	Checking 41/49 proxy: 24.249.80.22:3128
+Thu Aug  3 19:54:31 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:31 2017	proxyparser:	added http-proxy: 24.249.80.22:3128
+Thu Aug  3 19:54:46 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:54:46 2017	:	
+Thu Aug  3 19:54:46 2017	proxyparser:	Checking 42/49 proxy: 62.210.71.225:8080
+Thu Aug  3 19:54:47 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:47 2017	proxyparser:	added http-proxy: 62.210.71.225:8080
+Thu Aug  3 19:54:50 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:54:50 2017	proxyparser:	added https-proxy: 62.210.71.225:8080
+Thu Aug  3 19:54:50 2017	:	
+Thu Aug  3 19:54:50 2017	proxyparser:	Checking 43/49 proxy: 62.214.70.116:3128
+Thu Aug  3 19:54:51 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:54:51 2017	proxyparser:	added http-proxy: 62.214.70.116:3128
+Thu Aug  3 19:55:07 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:55:07 2017	:	
+Thu Aug  3 19:55:07 2017	proxyparser:	Checking 44/49 proxy: 34.252.130.88:8080
+Thu Aug  3 19:55:08 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:55:08 2017	proxyparser:	added http-proxy: 34.252.130.88:8080
+Thu Aug  3 19:55:12 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:55:12 2017	proxyparser:	added https-proxy: 34.252.130.88:8080
+Thu Aug  3 19:55:12 2017	:	
+Thu Aug  3 19:55:12 2017	proxyparser:	Checking 45/49 proxy: 184.178.217.66:3128
+Thu Aug  3 19:55:27 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'184.178.217.66', port=3128): Read timed out. (read timeout=15)
+Thu Aug  3 19:55:42 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Thu Aug  3 19:55:42 2017	:	
+Thu Aug  3 19:55:42 2017	proxyparser:	Checking 46/49 proxy: 52.11.203.152:8083
+Thu Aug  3 19:55:45 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:55:45 2017	proxyparser:	added http-proxy: 52.11.203.152:8083
+Thu Aug  3 19:55:54 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:55:54 2017	proxyparser:	added https-proxy: 52.11.203.152:8083
+Thu Aug  3 19:55:54 2017	:	
+Thu Aug  3 19:55:54 2017	proxyparser:	Checking 47/49 proxy: 139.59.125.53:443
+Thu Aug  3 19:56:06 2017	proxyparser:	http://sitespy.ru: 403
+Thu Aug  3 19:56:18 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 19:56:18 2017	proxyparser:	added https-proxy: 139.59.125.53:443
+Thu Aug  3 19:56:18 2017	:	
+Thu Aug  3 19:56:18 2017	proxyparser:	Checking 48/49 proxy: 200.229.202.72:3128
+Thu Aug  3 19:56:21 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 19:56:21 2017	proxyparser:	added http-proxy: 200.229.202.72:3128
+Thu Aug  3 19:56:22 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', error('Tunnel connection failed: 403 Forbidden',)))
+Thu Aug  3 19:56:22 2017	:	
+Thu Aug  3 19:56:22 2017	proxyparser:	Checking 49/49 proxy: 181.213.37.24:8080
+Thu Aug  3 19:56:37 2017	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host=u'181.213.37.24', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x10d503590>, u'Connection to 181.213.37.24 timed out. (connect timeout=15)'))
+Thu Aug  3 19:56:52 2017	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10d5030d0>, u'Connection to 181.213.37.24 timed out. (connect timeout=15)'))
+Thu Aug  3 19:56:52 2017	:	
+Thu Aug  3 19:56:52 2017	proxyparser:	Parsing finished. Found 32 http-proxies and 17 https-proxies.
+Thu Aug  3 19:56:52 2017	:	
+Thu Aug  3 20:27:38 2017	main.get:	GET http://httpbin.org/post
+Thu Aug  3 20:28:20 2017	main.get:	GET http://httpbin.org/post
+Thu Aug  3 20:28:20 2017	main.get:	proxy = {'http': 'http://37.151.43.202:3128', 'https': 'https://207.154.219.238:8888'}
+Thu Aug  3 20:28:20 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; yie8)'}
+Thu Aug  3 20:28:23 2017	main.get:	success
+Thu Aug  3 20:29:03 2017	main.get:	GET http://httpbin.org/post
+Thu Aug  3 20:29:03 2017	main.get:	proxy = {'http': 'http://46.218.73.162:80', 'https': 'https://139.59.125.53:443'}
+Thu Aug  3 20:29:03 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/11.0.696.57)'}
+Thu Aug  3 20:29:11 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:11 2017	:	
+Thu Aug  3 20:29:11 2017	main.get:	proxy = {'http': 'http://24.249.80.22:3128', 'https': 'https://139.59.125.53:443'}
+Thu Aug  3 20:29:11 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; chromeframe/11.0.696.57)'}
+Thu Aug  3 20:29:11 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:11 2017	:	
+Thu Aug  3 20:29:11 2017	main.get:	proxy = {'http': 'http://144.217.242.194:8080', 'https': 'https://139.59.125.77:443'}
+Thu Aug  3 20:29:11 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)'}
+Thu Aug  3 20:29:12 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:12 2017	:	
+Thu Aug  3 20:29:12 2017	main.get:	proxy = {'http': 'http://144.76.32.78:8080', 'https': 'https://34.252.130.88:8080'}
+Thu Aug  3 20:29:12 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)'}
+Thu Aug  3 20:29:13 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:13 2017	:	
+Thu Aug  3 20:29:13 2017	main.get:	proxy = {'http': 'http://89.38.8.130:88', 'https': 'https://52.11.203.152:8083'}
+Thu Aug  3 20:29:13 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)'}
+Thu Aug  3 20:29:28 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:28 2017	:	
+Thu Aug  3 20:29:28 2017	main.get:	proxy = {'http': 'http://120.25.154.32:8080', 'https': 'https://221.133.44.142:8080'}
+Thu Aug  3 20:29:28 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)'}
+Thu Aug  3 20:29:30 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:30 2017	:	
+Thu Aug  3 20:29:30 2017	main.get:	proxy = {'http': 'http://212.237.23.169:3128', 'https': 'https://34.252.130.88:8080'}
+Thu Aug  3 20:29:30 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)'}
+Thu Aug  3 20:29:39 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:39 2017	:	
+Thu Aug  3 20:29:39 2017	main.get:	proxy = {'http': 'http://52.11.203.152:8083', 'https': 'https://144.217.242.194:8080'}
+Thu Aug  3 20:29:39 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)'}
+Thu Aug  3 20:29:41 2017	main.get:	Unsuccess. Request is done, but status code is 405
+Thu Aug  3 20:29:41 2017	:	
+Thu Aug  3 20:29:41 2017	main.get:	proxie did not work 7 times, returning request made only with headers
+Thu Aug  3 20:32:11 2017	main.get:	GET http://httpbin.org
+Thu Aug  3 20:32:11 2017	main.get:	proxy = {'http': 'http://80.79.118.214:80', 'https': 'https://'}
+Thu Aug  3 20:32:11 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)'}
+Thu Aug  3 20:32:26 2017	main.get:	HTTPConnectionPool(host='80.79.118.214', port=80): Max retries exceeded with url: http://httpbin.org/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x10648a450>, 'Connection to 80.79.118.214 timed out. (connect timeout=15)'))
+Thu Aug  3 20:32:26 2017	main.get:	unsuccess
+Thu Aug  3 20:32:26 2017	:	
+Thu Aug  3 20:32:26 2017	main.get:	proxy = {'http': 'http://210.101.131.231:8080', 'https': 'https://213.198.241.6:8080'}
+Thu Aug  3 20:32:26 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; yie8)'}
+Thu Aug  3 20:32:42 2017	main.get:	HTTPConnectionPool(host='210.101.131.231', port=8080): Read timed out. (read timeout=15)
+Thu Aug  3 20:32:42 2017	main.get:	unsuccess
+Thu Aug  3 20:32:42 2017	:	
+Thu Aug  3 20:32:42 2017	main.get:	proxy = {'http': 'http://144.217.242.194:8080', 'https': 'https://62.210.71.225:8080'}
+Thu Aug  3 20:32:42 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)'}
+Thu Aug  3 20:32:42 2017	main.get:	success
+Thu Aug  3 20:41:17 2017	main.get:	GET https://www.posttestserver.com
+Thu Aug  3 20:41:17 2017	main.get:	proxy = {'http': 'http://112.140.184.136:3128', 'https': 'https://120.25.154.32:8080'}
+Thu Aug  3 20:41:17 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/11.0.696.57)'}
+Thu Aug  3 20:41:34 2017	main.get:	('_ssl.c:574: The handshake operation timed out',)
+Thu Aug  3 20:41:34 2017	main.get:	unsuccess
+Thu Aug  3 20:41:34 2017	:	
+Thu Aug  3 20:41:34 2017	main.get:	proxy = {'http': 'http://62.210.71.225:8080', 'https': 'https://212.237.23.169:3128'}
+Thu Aug  3 20:41:34 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)'}
+Thu Aug  3 20:41:44 2017	main.get:	success
+Thu Aug  3 20:42:53 2017	main.get:	GET https://www.posttestserver.com/post.php
+Thu Aug  3 20:42:53 2017	main.get:	proxy = {'http': 'http://84.19.190.113:80', 'https': 'https://'}
+Thu Aug  3 20:42:53 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; .NET4.0C; Tablet PC 2.0)'}
+Thu Aug  3 20:42:53 2017	main.get:	'NoneType' object has no attribute 'startswith'
+Thu Aug  3 20:42:53 2017	main.get:	unsuccess
+Thu Aug  3 20:42:53 2017	:	
+Thu Aug  3 20:42:53 2017	main.get:	proxy = {'http': 'http://52.174.89.111:80', 'https': 'https://80.79.118.214:80'}
+Thu Aug  3 20:42:53 2017	main.get:	useragent = {'User-Agent': 'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)'}
+Thu Aug  3 20:43:04 2017	main.get:	success
+Thu Aug  3 21:35:03 2017	proxyparser:	http-proxies cleared
+Thu Aug  3 21:35:03 2017	proxyparser:	https-proxies cleared
+Thu Aug  3 21:35:03 2017	proxyparser:	Parsing started.
+Thu Aug  3 21:35:03 2017	proxyparser:	Found 49 proxies
+Thu Aug  3 21:35:03 2017	proxyparser:	Checking 1/49 proxy: 149.56.89.166:3128
+Thu Aug  3 21:35:04 2017	proxyparser:	http://sitespy.ru: 200
+Thu Aug  3 21:35:04 2017	proxyparser:	added http-proxy: 149.56.89.166:3128
+Thu Aug  3 21:35:08 2017	proxyparser:	https://pythonworld.ru: 200
+Thu Aug  3 21:35:08 2017	proxyparser:	added https-proxy: 149.56.89.166:3128
+Thu Aug  3 21:35:08 2017	:	
+Thu Aug  3 21:35:08 2017	proxyparser:	Checking 2/49 proxy: 78.46.58.79:80
+Wed Feb 21 16:06:34 2018	proxyparser:	http-proxies cleared
+Wed Feb 21 16:06:34 2018	proxyparser:	https-proxies cleared
+Wed Feb 21 16:06:34 2018	proxyparser:	Parsing started.
+Wed Feb 21 16:06:35 2018	proxyparser:	Found 43 proxies
+Wed Feb 21 16:06:35 2018	proxyparser:	Checking 1/43 proxy: 79.137.42.124:3128
+Wed Feb 21 16:06:36 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:06:36 2018	proxyparser:	added http-proxy: 79.137.42.124:3128
+Wed Feb 21 16:06:36 2018	proxyparser:	https://pythonworld.ru: 200
+Wed Feb 21 16:06:36 2018	proxyparser:	added https-proxy: 79.137.42.124:3128
+Wed Feb 21 16:06:36 2018	:	
+Wed Feb 21 16:06:36 2018	proxyparser:	Checking 2/43 proxy: 208.95.62.80:3128
+Wed Feb 21 16:06:37 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:06:37 2018	proxyparser:	added http-proxy: 208.95.62.80:3128
+Wed Feb 21 16:06:39 2018	proxyparser:	https://pythonworld.ru: 200
+Wed Feb 21 16:06:39 2018	proxyparser:	added https-proxy: 208.95.62.80:3128
+Wed Feb 21 16:06:39 2018	:	
+Wed Feb 21 16:06:39 2018	proxyparser:	Checking 3/43 proxy: 208.95.62.81:3128
+Wed Feb 21 16:06:40 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:06:40 2018	proxyparser:	added http-proxy: 208.95.62.81:3128
+Wed Feb 21 16:06:41 2018	proxyparser:	https://pythonworld.ru: 200
+Wed Feb 21 16:06:41 2018	proxyparser:	added https-proxy: 208.95.62.81:3128
+Wed Feb 21 16:06:41 2018	:	
+Wed Feb 21 16:06:41 2018	proxyparser:	Checking 4/43 proxy: 185.93.3.123:8080
+Wed Feb 21 16:06:43 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:06:43 2018	proxyparser:	added http-proxy: 185.93.3.123:8080
+Wed Feb 21 16:06:45 2018	proxyparser:	https://pythonworld.ru: 200
+Wed Feb 21 16:06:45 2018	proxyparser:	added https-proxy: 185.93.3.123:8080
+Wed Feb 21 16:06:45 2018	:	
+Wed Feb 21 16:06:45 2018	proxyparser:	Checking 5/43 proxy: 84.241.41.220:8080
+Wed Feb 21 16:07:00 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='84.241.41.220', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x03DD93F0>, 'Connection to 84.241.41.220 timed out. (connect timeout=15)'))
+Wed Feb 21 16:07:15 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x03DE5F50>, 'Connection to 84.241.41.220 timed out. (connect timeout=15)'))
+Wed Feb 21 16:07:15 2018	:	
+Wed Feb 21 16:07:15 2018	proxyparser:	Checking 6/43 proxy: 124.195.19.18:1080
+Wed Feb 21 16:07:20 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:07:20 2018	proxyparser:	added http-proxy: 124.195.19.18:1080
+Wed Feb 21 16:07:23 2018	proxyparser:	https://pythonworld.ru: [SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:645)
+Wed Feb 21 16:07:23 2018	:	
+Wed Feb 21 16:07:23 2018	proxyparser:	Checking 7/43 proxy: 173.249.9.82:3128
+Wed Feb 21 16:07:33 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:07:33 2018	proxyparser:	added http-proxy: 173.249.9.82:3128
+Wed Feb 21 16:07:37 2018	proxyparser:	https://pythonworld.ru: 200
+Wed Feb 21 16:07:37 2018	proxyparser:	added https-proxy: 173.249.9.82:3128
+Wed Feb 21 16:07:37 2018	:	
+Wed Feb 21 16:07:37 2018	proxyparser:	Checking 8/43 proxy: 47.52.222.165:80
+Wed Feb 21 16:07:39 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:07:39 2018	proxyparser:	added http-proxy: 47.52.222.165:80
+Wed Feb 21 16:07:40 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+Wed Feb 21 16:07:40 2018	:	
+Wed Feb 21 16:07:40 2018	proxyparser:	Checking 9/43 proxy: 223.19.51.247:80
+Wed Feb 21 16:07:42 2018	proxyparser:	http://sitespy.ru: 200
+Wed Feb 21 16:07:42 2018	proxyparser:	added http-proxy: 223.19.51.247:80
+Wed Feb 21 16:07:43 2018	proxyparser:	https://pythonworld.ru: ('Connection aborted.', BadStatusLine('<html>\r\n',))
+Wed Feb 21 16:07:43 2018	:	
+Wed Feb 21 16:07:43 2018	proxyparser:	Checking 10/43 proxy: 190.11.32.94:53281
+Sun Feb 25 15:51:51 2018	proxyparser:	http-proxies cleared
+Sun Feb 25 15:51:51 2018	proxyparser:	https-proxies cleared
+Sun Feb 25 15:51:51 2018	proxyparser:	Parsing started.
+Sun Feb 25 15:51:52 2018	proxyparser:	Found 49 proxies
+Sun Feb 25 15:51:52 2018	proxyparser:	Checking 1/49 proxy: 192.116.142.153:8080
+Sun Feb 25 15:51:54 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:51:54 2018	proxyparser:	added http-proxy: 192.116.142.153:8080
+Sun Feb 25 15:51:56 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:51:56 2018	proxyparser:	added https-proxy: 192.116.142.153:8080
+Sun Feb 25 15:51:56 2018	:	
+Sun Feb 25 15:51:56 2018	proxyparser:	Checking 2/49 proxy: 45.32.161.145:8080
+Sun Feb 25 15:51:57 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:51:57 2018	proxyparser:	added http-proxy: 45.32.161.145:8080
+Sun Feb 25 15:51:59 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:51:59 2018	proxyparser:	added https-proxy: 45.32.161.145:8080
+Sun Feb 25 15:51:59 2018	:	
+Sun Feb 25 15:51:59 2018	proxyparser:	Checking 3/49 proxy: 217.19.7.109:53281
+Sun Feb 25 15:52:05 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:52:05 2018	proxyparser:	added http-proxy: 217.19.7.109:53281
+Sun Feb 25 15:52:20 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DC4F0>, 'Connection to 217.19.7.109 timed out. (connect timeout=15)'))
+Sun Feb 25 15:52:20 2018	:	
+Sun Feb 25 15:52:20 2018	proxyparser:	Checking 4/49 proxy: 61.91.251.235:8080
+Sun Feb 25 15:52:35 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='61.91.251.235', port=8080): Read timed out. (read timeout=15)
+Sun Feb 25 15:52:50 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Sun Feb 25 15:52:50 2018	:	
+Sun Feb 25 15:52:50 2018	proxyparser:	Checking 5/49 proxy: 194.14.207.87:80
+Sun Feb 25 15:53:08 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:53:08 2018	proxyparser:	added http-proxy: 194.14.207.87:80
+Sun Feb 25 15:53:23 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DCD10>, 'Connection to 194.14.207.87 timed out. (connect timeout=15)'))
+Sun Feb 25 15:53:23 2018	:	
+Sun Feb 25 15:53:23 2018	proxyparser:	Checking 6/49 proxy: 212.83.164.85:80
+Sun Feb 25 15:53:31 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:53:31 2018	proxyparser:	added http-proxy: 212.83.164.85:80
+Sun Feb 25 15:53:46 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EB0D0>, 'Connection to 212.83.164.85 timed out. (connect timeout=15)'))
+Sun Feb 25 15:53:46 2018	:	
+Sun Feb 25 15:53:46 2018	proxyparser:	Checking 7/49 proxy: 89.236.17.108:3128
+Sun Feb 25 15:53:46 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:53:46 2018	proxyparser:	added http-proxy: 89.236.17.108:3128
+Sun Feb 25 15:53:47 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:53:47 2018	proxyparser:	added https-proxy: 89.236.17.108:3128
+Sun Feb 25 15:53:47 2018	:	
+Sun Feb 25 15:53:47 2018	proxyparser:	Checking 8/49 proxy: 186.215.78.3:53281
+Sun Feb 25 15:54:03 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='186.215.78.3', port=53281): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB3F0>, 'Connection to 186.215.78.3 timed out. (connect timeout=15)'))
+Sun Feb 25 15:54:18 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EBBF0>, 'Connection to 186.215.78.3 timed out. (connect timeout=15)'))
+Sun Feb 25 15:54:18 2018	:	
+Sun Feb 25 15:54:18 2018	proxyparser:	Checking 9/49 proxy: 61.5.207.102:80
+Sun Feb 25 15:54:20 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:54:20 2018	proxyparser:	added http-proxy: 61.5.207.102:80
+Sun Feb 25 15:54:31 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+Sun Feb 25 15:54:31 2018	:	
+Sun Feb 25 15:54:31 2018	proxyparser:	Checking 10/49 proxy: 138.0.226.86:14246
+Sun Feb 25 15:54:46 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='138.0.226.86', port=14246): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB3D0>, 'Connection to 138.0.226.86 timed out. (connect timeout=15)'))
+Sun Feb 25 15:55:01 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DC790>, 'Connection to 138.0.226.86 timed out. (connect timeout=15)'))
+Sun Feb 25 15:55:01 2018	:	
+Sun Feb 25 15:55:01 2018	proxyparser:	Checking 11/49 proxy: 79.137.42.124:3128
+Sun Feb 25 15:55:02 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:55:02 2018	proxyparser:	added http-proxy: 79.137.42.124:3128
+Sun Feb 25 15:55:03 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:55:03 2018	proxyparser:	added https-proxy: 79.137.42.124:3128
+Sun Feb 25 15:55:03 2018	:	
+Sun Feb 25 15:55:03 2018	proxyparser:	Checking 12/49 proxy: 5.189.133.231:80
+Sun Feb 25 15:55:04 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:55:04 2018	proxyparser:	added http-proxy: 5.189.133.231:80
+Sun Feb 25 15:55:04 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 15:55:04 2018	:	
+Sun Feb 25 15:55:04 2018	proxyparser:	Checking 13/49 proxy: 159.65.239.142:3128
+Sun Feb 25 15:55:07 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:55:07 2018	proxyparser:	added http-proxy: 159.65.239.142:3128
+Sun Feb 25 15:55:08 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:55:08 2018	proxyparser:	added https-proxy: 159.65.239.142:3128
+Sun Feb 25 15:55:08 2018	:	
+Sun Feb 25 15:55:08 2018	proxyparser:	Checking 14/49 proxy: 193.194.69.36:3128
+Sun Feb 25 15:55:13 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:55:13 2018	proxyparser:	added http-proxy: 193.194.69.36:3128
+Sun Feb 25 15:55:24 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:55:25 2018	proxyparser:	added https-proxy: 193.194.69.36:3128
+Sun Feb 25 15:55:25 2018	:	
+Sun Feb 25 15:55:25 2018	proxyparser:	Checking 15/49 proxy: 47.206.51.67:8080
+Sun Feb 25 15:55:40 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='47.206.51.67', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044DC670>, 'Connection to 47.206.51.67 timed out. (connect timeout=15)'))
+Sun Feb 25 15:55:55 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DCEB0>, 'Connection to 47.206.51.67 timed out. (connect timeout=15)'))
+Sun Feb 25 15:55:55 2018	:	
+Sun Feb 25 15:55:55 2018	proxyparser:	Checking 16/49 proxy: 36.67.231.3:8080
+Sun Feb 25 15:56:10 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='36.67.231.3', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044EBAF0>, 'Connection to 36.67.231.3 timed out. (connect timeout=15)'))
+Sun Feb 25 15:56:11 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+Sun Feb 25 15:56:11 2018	:	
+Sun Feb 25 15:56:11 2018	proxyparser:	Checking 17/49 proxy: 173.46.133.74:80
+Sun Feb 25 15:56:26 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='173.46.133.74', port=80): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB5F0>, 'Connection to 173.46.133.74 timed out. (connect timeout=15)'))
+Sun Feb 25 15:56:41 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EB7D0>, 'Connection to 173.46.133.74 timed out. (connect timeout=15)'))
+Sun Feb 25 15:56:41 2018	:	
+Sun Feb 25 15:56:41 2018	proxyparser:	Checking 18/49 proxy: 138.59.176.244:8080
+Sun Feb 25 15:56:52 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:56:52 2018	proxyparser:	added http-proxy: 138.59.176.244:8080
+Sun Feb 25 15:57:07 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EB850>, 'Connection to 138.59.176.244 timed out. (connect timeout=15)'))
+Sun Feb 25 15:57:07 2018	:	
+Sun Feb 25 15:57:07 2018	proxyparser:	Checking 19/49 proxy: 188.165.240.92:3128
+Sun Feb 25 15:57:22 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='188.165.240.92', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044DC270>, 'Connection to 188.165.240.92 timed out. (connect timeout=15)'))
+Sun Feb 25 15:57:37 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DCB10>, 'Connection to 188.165.240.92 timed out. (connect timeout=15)'))
+Sun Feb 25 15:57:37 2018	:	
+Sun Feb 25 15:57:37 2018	proxyparser:	Checking 20/49 proxy: 5.51.159.253:80
+Sun Feb 25 15:57:52 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='5.51.159.253', port=80): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044DC890>, 'Connection to 5.51.159.253 timed out. (connect timeout=15)'))
+Sun Feb 25 15:58:07 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DC830>, 'Connection to 5.51.159.253 timed out. (connect timeout=15)'))
+Sun Feb 25 15:58:07 2018	:	
+Sun Feb 25 15:58:07 2018	proxyparser:	Checking 21/49 proxy: 46.218.73.162:80
+Sun Feb 25 15:58:22 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='46.218.73.162', port=80): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044F7BD0>, 'Connection to 46.218.73.162 timed out. (connect timeout=15)'))
+Sun Feb 25 15:58:37 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DCA10>, 'Connection to 46.218.73.162 timed out. (connect timeout=15)'))
+Sun Feb 25 15:58:37 2018	:	
+Sun Feb 25 15:58:37 2018	proxyparser:	Checking 22/49 proxy: 163.172.27.213:3128
+Sun Feb 25 15:58:57 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:58:57 2018	proxyparser:	added http-proxy: 163.172.27.213:3128
+Sun Feb 25 15:59:02 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:59:02 2018	proxyparser:	added https-proxy: 163.172.27.213:3128
+Sun Feb 25 15:59:02 2018	:	
+Sun Feb 25 15:59:02 2018	proxyparser:	Checking 23/49 proxy: 185.2.50.36:80
+Sun Feb 25 15:59:09 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:09 2018	proxyparser:	added http-proxy: 185.2.50.36:80
+Sun Feb 25 15:59:16 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+Sun Feb 25 15:59:16 2018	:	
+Sun Feb 25 15:59:16 2018	proxyparser:	Checking 24/49 proxy: 137.74.168.174:80
+Sun Feb 25 15:59:28 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:28 2018	proxyparser:	added http-proxy: 137.74.168.174:80
+Sun Feb 25 15:59:33 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:59:33 2018	proxyparser:	added https-proxy: 137.74.168.174:80
+Sun Feb 25 15:59:33 2018	:	
+Sun Feb 25 15:59:33 2018	proxyparser:	Checking 25/49 proxy: 173.212.202.65:80
+Sun Feb 25 15:59:34 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:34 2018	proxyparser:	added http-proxy: 173.212.202.65:80
+Sun Feb 25 15:59:34 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 15:59:34 2018	:	
+Sun Feb 25 15:59:34 2018	proxyparser:	Checking 26/49 proxy: 185.93.3.123:8080
+Sun Feb 25 15:59:35 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:35 2018	proxyparser:	added http-proxy: 185.93.3.123:8080
+Sun Feb 25 15:59:36 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 15:59:36 2018	proxyparser:	added https-proxy: 185.93.3.123:8080
+Sun Feb 25 15:59:36 2018	:	
+Sun Feb 25 15:59:36 2018	proxyparser:	Checking 27/49 proxy: 145.239.4.43:8080
+Sun Feb 25 15:59:37 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:37 2018	proxyparser:	added http-proxy: 145.239.4.43:8080
+Sun Feb 25 15:59:37 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+Sun Feb 25 15:59:37 2018	:	
+Sun Feb 25 15:59:37 2018	proxyparser:	Checking 28/49 proxy: 154.119.50.246:53281
+Sun Feb 25 15:59:48 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 15:59:48 2018	proxyparser:	added http-proxy: 154.119.50.246:53281
+Sun Feb 25 16:00:03 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044DC530>, 'Connection to 154.119.50.246 timed out. (connect timeout=15)'))
+Sun Feb 25 16:00:03 2018	:	
+Sun Feb 25 16:00:03 2018	proxyparser:	Checking 29/49 proxy: 142.44.194.14:3128
+Sun Feb 25 16:00:04 2018	proxyparser:	http://sitespy.ru: 403
+Sun Feb 25 16:00:04 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+Sun Feb 25 16:00:04 2018	:	
+Sun Feb 25 16:00:04 2018	proxyparser:	Checking 30/49 proxy: 217.182.138.15:3128
+Sun Feb 25 16:00:06 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:00:06 2018	proxyparser:	added http-proxy: 217.182.138.15:3128
+Sun Feb 25 16:00:07 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:00:07 2018	proxyparser:	added https-proxy: 217.182.138.15:3128
+Sun Feb 25 16:00:07 2018	:	
+Sun Feb 25 16:00:07 2018	proxyparser:	Checking 31/49 proxy: 107.174.26.59:1080
+Sun Feb 25 16:00:18 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:00:23 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:00:23 2018	:	
+Sun Feb 25 16:00:23 2018	proxyparser:	Checking 32/49 proxy: 137.74.171.76:3128
+Sun Feb 25 16:00:24 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:00:24 2018	proxyparser:	added http-proxy: 137.74.171.76:3128
+Sun Feb 25 16:00:27 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:00:27 2018	proxyparser:	added https-proxy: 137.74.171.76:3128
+Sun Feb 25 16:00:27 2018	:	
+Sun Feb 25 16:00:27 2018	proxyparser:	Checking 33/49 proxy: 13.56.185.55:3128
+Sun Feb 25 16:00:29 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='13.56.185.55', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044DC3F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:00:31 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EF5F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:00:31 2018	:	
+Sun Feb 25 16:00:31 2018	proxyparser:	Checking 34/49 proxy: 139.59.66.182:3128
+Sun Feb 25 16:00:33 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='139.59.66.182', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044F7F70>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:00:36 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044F7550>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:00:36 2018	:	
+Sun Feb 25 16:00:36 2018	proxyparser:	Checking 35/49 proxy: 107.174.26.56:1080
+Sun Feb 25 16:00:47 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:00:52 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:00:52 2018	:	
+Sun Feb 25 16:00:52 2018	proxyparser:	Checking 36/49 proxy: 107.174.26.55:1080
+Sun Feb 25 16:01:05 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:01:07 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+Sun Feb 25 16:01:07 2018	:	
+Sun Feb 25 16:01:07 2018	proxyparser:	Checking 37/49 proxy: 107.174.26.53:1080
+Sun Feb 25 16:01:09 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.174.26.53', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB7B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:10 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EBC50>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:10 2018	:	
+Sun Feb 25 16:01:10 2018	proxyparser:	Checking 38/49 proxy: 107.174.26.52:1080
+Sun Feb 25 16:01:12 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.174.26.52', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB1F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:14 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EB5B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:14 2018	:	
+Sun Feb 25 16:01:14 2018	proxyparser:	Checking 39/49 proxy: 107.174.26.51:1080
+Sun Feb 25 16:01:15 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.174.26.51', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044EB950>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:17 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044EBE50>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:17 2018	:	
+Sun Feb 25 16:01:17 2018	proxyparser:	Checking 40/49 proxy: 107.174.26.50:1080
+Sun Feb 25 16:01:18 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.174.26.50', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x044F71F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:20 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x044F7070>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:01:20 2018	:	
+Sun Feb 25 16:01:20 2018	proxyparser:	Checking 41/49 proxy: 107.172.10.27:1080
+Sun Feb 25 16:01:35 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.172.10.27', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x044F7D10>, 'Connection to 107.172.10.27 timed out. (connect timeout=15)'))
+Sun Feb 25 16:01:43 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:01:43 2018	:	
+Sun Feb 25 16:01:43 2018	proxyparser:	Checking 42/49 proxy: 107.172.10.25:1080
+Sun Feb 25 16:01:50 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:02:02 2018	proxyparser:	http-proxies cleared
+Sun Feb 25 16:02:02 2018	proxyparser:	https-proxies cleared
+Sun Feb 25 16:02:02 2018	proxyparser:	Parsing started.
+Sun Feb 25 16:02:03 2018	proxyparser:	Found 49 proxies
+Sun Feb 25 16:02:03 2018	proxyparser:	Checking 1/49 proxy: 45.32.161.145:8080
+Sun Feb 25 16:02:05 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:02:05 2018	proxyparser:	added http-proxy: 45.32.161.145:8080
+Sun Feb 25 16:02:06 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:02:06 2018	proxyparser:	added https-proxy: 45.32.161.145:8080
+Sun Feb 25 16:02:06 2018	:	
+Sun Feb 25 16:02:06 2018	proxyparser:	Checking 2/49 proxy: 192.116.142.153:8080
+Sun Feb 25 16:02:07 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:02:07 2018	proxyparser:	added http-proxy: 192.116.142.153:8080
+Sun Feb 25 16:02:09 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:02:09 2018	proxyparser:	added https-proxy: 192.116.142.153:8080
+Sun Feb 25 16:02:09 2018	:	
+Sun Feb 25 16:02:09 2018	proxyparser:	Checking 3/49 proxy: 217.19.7.109:53281
+Sun Feb 25 16:02:16 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:02:16 2018	proxyparser:	added http-proxy: 217.19.7.109:53281
+Sun Feb 25 16:02:31 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418C910>, 'Connection to 217.19.7.109 timed out. (connect timeout=15)'))
+Sun Feb 25 16:02:31 2018	:	
+Sun Feb 25 16:02:31 2018	proxyparser:	Checking 4/49 proxy: 61.91.251.235:8080
+Sun Feb 25 16:02:45 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:02:45 2018	proxyparser:	added http-proxy: 61.91.251.235:8080
+Sun Feb 25 16:02:53 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:02:53 2018	proxyparser:	added https-proxy: 61.91.251.235:8080
+Sun Feb 25 16:02:53 2018	:	
+Sun Feb 25 16:02:53 2018	proxyparser:	Checking 5/49 proxy: 194.14.207.87:80
+Sun Feb 25 16:03:06 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:03:06 2018	proxyparser:	added http-proxy: 194.14.207.87:80
+Sun Feb 25 16:03:16 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 16:03:16 2018	:	
+Sun Feb 25 16:03:16 2018	proxyparser:	Checking 6/49 proxy: 212.83.164.85:80
+Sun Feb 25 16:03:34 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:03:34 2018	proxyparser:	added http-proxy: 212.83.164.85:80
+Sun Feb 25 16:03:35 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 16:03:35 2018	:	
+Sun Feb 25 16:03:35 2018	proxyparser:	Checking 7/49 proxy: 89.236.17.108:3128
+Sun Feb 25 16:03:35 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:03:35 2018	proxyparser:	added http-proxy: 89.236.17.108:3128
+Sun Feb 25 16:03:36 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:03:36 2018	proxyparser:	added https-proxy: 89.236.17.108:3128
+Sun Feb 25 16:03:36 2018	:	
+Sun Feb 25 16:03:36 2018	proxyparser:	Checking 8/49 proxy: 186.215.78.3:53281
+Sun Feb 25 16:03:41 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:03:41 2018	proxyparser:	added http-proxy: 186.215.78.3:53281
+Sun Feb 25 16:03:44 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:03:44 2018	proxyparser:	added https-proxy: 186.215.78.3:53281
+Sun Feb 25 16:03:44 2018	:	
+Sun Feb 25 16:03:44 2018	proxyparser:	Checking 9/49 proxy: 61.5.207.102:80
+Sun Feb 25 16:03:46 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:03:46 2018	proxyparser:	added http-proxy: 61.5.207.102:80
+Sun Feb 25 16:03:51 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+Sun Feb 25 16:03:51 2018	:	
+Sun Feb 25 16:03:51 2018	proxyparser:	Checking 10/49 proxy: 138.0.226.86:14246
+Sun Feb 25 16:04:06 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='138.0.226.86', port=14246): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x0418C850>, 'Connection to 138.0.226.86 timed out. (connect timeout=15)'))
+Sun Feb 25 16:04:21 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x041A2290>, 'Connection to 138.0.226.86 timed out. (connect timeout=15)'))
+Sun Feb 25 16:04:21 2018	:	
+Sun Feb 25 16:04:21 2018	proxyparser:	Checking 11/49 proxy: 79.137.42.124:3128
+Sun Feb 25 16:04:22 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:04:22 2018	proxyparser:	added http-proxy: 79.137.42.124:3128
+Sun Feb 25 16:04:22 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:04:22 2018	proxyparser:	added https-proxy: 79.137.42.124:3128
+Sun Feb 25 16:04:22 2018	:	
+Sun Feb 25 16:04:22 2018	proxyparser:	Checking 12/49 proxy: 5.189.133.231:80
+Sun Feb 25 16:04:23 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:04:23 2018	proxyparser:	added http-proxy: 5.189.133.231:80
+Sun Feb 25 16:04:32 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 16:04:32 2018	:	
+Sun Feb 25 16:04:32 2018	proxyparser:	Checking 13/49 proxy: 159.65.239.142:3128
+Sun Feb 25 16:04:35 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:04:35 2018	proxyparser:	added http-proxy: 159.65.239.142:3128
+Sun Feb 25 16:04:36 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:04:36 2018	proxyparser:	added https-proxy: 159.65.239.142:3128
+Sun Feb 25 16:04:36 2018	:	
+Sun Feb 25 16:04:36 2018	proxyparser:	Checking 14/49 proxy: 193.194.69.36:3128
+Sun Feb 25 16:04:40 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:04:40 2018	proxyparser:	added http-proxy: 193.194.69.36:3128
+Sun Feb 25 16:04:46 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:04:46 2018	proxyparser:	added https-proxy: 193.194.69.36:3128
+Sun Feb 25 16:04:46 2018	:	
+Sun Feb 25 16:04:46 2018	proxyparser:	Checking 15/49 proxy: 47.206.51.67:8080
+Sun Feb 25 16:05:01 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='47.206.51.67', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x0419BE30>, 'Connection to 47.206.51.67 timed out. (connect timeout=15)'))
+Sun Feb 25 16:05:16 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418C830>, 'Connection to 47.206.51.67 timed out. (connect timeout=15)'))
+Sun Feb 25 16:05:16 2018	:	
+Sun Feb 25 16:05:16 2018	proxyparser:	Checking 16/49 proxy: 36.67.231.3:8080
+Sun Feb 25 16:05:22 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:05:22 2018	proxyparser:	added http-proxy: 36.67.231.3:8080
+Sun Feb 25 16:05:23 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+Sun Feb 25 16:05:23 2018	:	
+Sun Feb 25 16:05:23 2018	proxyparser:	Checking 17/49 proxy: 173.46.133.74:80
+Sun Feb 25 16:05:37 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='173.46.133.74', port=80): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+Sun Feb 25 16:05:52 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x041A2530>, 'Connection to 173.46.133.74 timed out. (connect timeout=15)'))
+Sun Feb 25 16:05:52 2018	:	
+Sun Feb 25 16:05:52 2018	proxyparser:	Checking 18/49 proxy: 138.59.176.244:8080
+Sun Feb 25 16:05:55 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:05:55 2018	proxyparser:	added http-proxy: 138.59.176.244:8080
+Sun Feb 25 16:05:56 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+Sun Feb 25 16:05:56 2018	:	
+Sun Feb 25 16:05:56 2018	proxyparser:	Checking 19/49 proxy: 188.165.240.92:3128
+Sun Feb 25 16:06:09 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:06:09 2018	proxyparser:	added http-proxy: 188.165.240.92:3128
+Sun Feb 25 16:06:24 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418C5D0>, 'Connection to 188.165.240.92 timed out. (connect timeout=15)'))
+Sun Feb 25 16:06:24 2018	:	
+Sun Feb 25 16:06:24 2018	proxyparser:	Checking 20/49 proxy: 5.51.159.253:80
+Sun Feb 25 16:06:27 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:06:27 2018	proxyparser:	added http-proxy: 5.51.159.253:80
+Sun Feb 25 16:06:32 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:06:32 2018	proxyparser:	added https-proxy: 5.51.159.253:80
+Sun Feb 25 16:06:32 2018	:	
+Sun Feb 25 16:06:32 2018	proxyparser:	Checking 21/49 proxy: 46.218.73.162:80
+Sun Feb 25 16:06:39 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:06:39 2018	proxyparser:	added http-proxy: 46.218.73.162:80
+Sun Feb 25 16:06:54 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418CBD0>, 'Connection to 46.218.73.162 timed out. (connect timeout=15)'))
+Sun Feb 25 16:06:54 2018	:	
+Sun Feb 25 16:06:54 2018	proxyparser:	Checking 22/49 proxy: 163.172.27.213:3128
+Sun Feb 25 16:06:55 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:06:55 2018	proxyparser:	added http-proxy: 163.172.27.213:3128
+Sun Feb 25 16:06:58 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:06:58 2018	proxyparser:	added https-proxy: 163.172.27.213:3128
+Sun Feb 25 16:06:58 2018	:	
+Sun Feb 25 16:06:58 2018	proxyparser:	Checking 23/49 proxy: 185.2.50.36:80
+Sun Feb 25 16:07:12 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:12 2018	proxyparser:	added http-proxy: 185.2.50.36:80
+Sun Feb 25 16:07:27 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0419B8B0>, 'Connection to 185.2.50.36 timed out. (connect timeout=15)'))
+Sun Feb 25 16:07:27 2018	:	
+Sun Feb 25 16:07:27 2018	proxyparser:	Checking 24/49 proxy: 137.74.168.174:80
+Sun Feb 25 16:07:32 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:32 2018	proxyparser:	added http-proxy: 137.74.168.174:80
+Sun Feb 25 16:07:34 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:07:34 2018	proxyparser:	added https-proxy: 137.74.168.174:80
+Sun Feb 25 16:07:34 2018	:	
+Sun Feb 25 16:07:34 2018	proxyparser:	Checking 25/49 proxy: 173.212.202.65:80
+Sun Feb 25 16:07:43 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:43 2018	proxyparser:	added http-proxy: 173.212.202.65:80
+Sun Feb 25 16:07:43 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+Sun Feb 25 16:07:44 2018	:	
+Sun Feb 25 16:07:44 2018	proxyparser:	Checking 26/49 proxy: 185.93.3.123:8080
+Sun Feb 25 16:07:45 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:45 2018	proxyparser:	added http-proxy: 185.93.3.123:8080
+Sun Feb 25 16:07:48 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:07:48 2018	proxyparser:	added https-proxy: 185.93.3.123:8080
+Sun Feb 25 16:07:48 2018	:	
+Sun Feb 25 16:07:48 2018	proxyparser:	Checking 27/49 proxy: 145.239.4.43:8080
+Sun Feb 25 16:07:49 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:49 2018	proxyparser:	added http-proxy: 145.239.4.43:8080
+Sun Feb 25 16:07:49 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+Sun Feb 25 16:07:49 2018	:	
+Sun Feb 25 16:07:49 2018	proxyparser:	Checking 28/49 proxy: 154.119.50.246:53281
+Sun Feb 25 16:07:50 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:07:50 2018	proxyparser:	added http-proxy: 154.119.50.246:53281
+Sun Feb 25 16:08:05 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0419B2B0>, 'Connection to 154.119.50.246 timed out. (connect timeout=15)'))
+Sun Feb 25 16:08:05 2018	:	
+Sun Feb 25 16:08:05 2018	proxyparser:	Checking 29/49 proxy: 142.44.194.14:3128
+Sun Feb 25 16:08:06 2018	proxyparser:	http://sitespy.ru: 403
+Sun Feb 25 16:08:06 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+Sun Feb 25 16:08:06 2018	:	
+Sun Feb 25 16:08:06 2018	proxyparser:	Checking 30/49 proxy: 217.182.138.15:3128
+Sun Feb 25 16:08:07 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:08:07 2018	proxyparser:	added http-proxy: 217.182.138.15:3128
+Sun Feb 25 16:08:07 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:08:07 2018	proxyparser:	added https-proxy: 217.182.138.15:3128
+Sun Feb 25 16:08:07 2018	:	
+Sun Feb 25 16:08:07 2018	proxyparser:	Checking 31/49 proxy: 107.174.26.59:1080
+Sun Feb 25 16:08:17 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:08:39 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:08:39 2018	:	
+Sun Feb 25 16:08:39 2018	proxyparser:	Checking 32/49 proxy: 137.74.171.76:3128
+Sun Feb 25 16:08:39 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:08:39 2018	proxyparser:	added http-proxy: 137.74.171.76:3128
+Sun Feb 25 16:08:40 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:08:40 2018	proxyparser:	added https-proxy: 137.74.171.76:3128
+Sun Feb 25 16:08:40 2018	:	
+Sun Feb 25 16:08:40 2018	proxyparser:	Checking 33/49 proxy: 13.56.185.55:3128
+Sun Feb 25 16:08:42 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='13.56.185.55', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0419BB10>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:08:43 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418C410>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:08:43 2018	:	
+Sun Feb 25 16:08:43 2018	proxyparser:	Checking 34/49 proxy: 139.59.66.182:3128
+Sun Feb 25 16:08:45 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='139.59.66.182', port=3128): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0418C2B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:08:47 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x041A2E10>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:08:47 2018	:	
+Sun Feb 25 16:08:47 2018	proxyparser:	Checking 35/49 proxy: 107.174.26.56:1080
+Sun Feb 25 16:08:48 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:08:58 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:08:58 2018	:	
+Sun Feb 25 16:08:58 2018	proxyparser:	Checking 36/49 proxy: 107.174.26.55:1080
+Sun Feb 25 16:09:12 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:09:20 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:09:20 2018	:	
+Sun Feb 25 16:09:20 2018	proxyparser:	Checking 37/49 proxy: 107.174.26.53:1080
+Sun Feb 25 16:09:23 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:09:33 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:09:33 2018	:	
+Sun Feb 25 16:09:33 2018	proxyparser:	Checking 38/49 proxy: 107.174.26.52:1080
+Sun Feb 25 16:09:47 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:10:10 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:629: The handshake operation timed out',)))
+Sun Feb 25 16:10:10 2018	:	
+Sun Feb 25 16:10:10 2018	proxyparser:	Checking 39/49 proxy: 107.174.26.51:1080
+Sun Feb 25 16:10:18 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:10:24 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:10:24 2018	:	
+Sun Feb 25 16:10:24 2018	proxyparser:	Checking 40/49 proxy: 107.174.26.50:1080
+Sun Feb 25 16:10:39 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.174.26.50', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x0418CAF0>, 'Connection to 107.174.26.50 timed out. (connect timeout=15)'))
+Sun Feb 25 16:10:54 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418C550>, 'Connection to 107.174.26.50 timed out. (connect timeout=15)'))
+Sun Feb 25 16:10:54 2018	:	
+Sun Feb 25 16:10:54 2018	proxyparser:	Checking 41/49 proxy: 107.172.10.27:1080
+Sun Feb 25 16:11:05 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:11:25 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:11:25 2018	:	
+Sun Feb 25 16:11:25 2018	proxyparser:	Checking 42/49 proxy: 107.172.10.25:1080
+Sun Feb 25 16:11:33 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:11:53 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:11:53 2018	:	
+Sun Feb 25 16:11:53 2018	proxyparser:	Checking 43/49 proxy: 107.172.10.21:1080
+Sun Feb 25 16:12:08 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='107.172.10.21', port=1080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x0419B1D0>, 'Connection to 107.172.10.21 timed out. (connect timeout=15)'))
+Sun Feb 25 16:12:23 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0419B630>, 'Connection to 107.172.10.21 timed out. (connect timeout=15)'))
+Sun Feb 25 16:12:23 2018	:	
+Sun Feb 25 16:12:23 2018	proxyparser:	Checking 44/49 proxy: 107.172.10.18:1080
+Sun Feb 25 16:12:34 2018	proxyparser:	http://sitespy.ru: 429
+Sun Feb 25 16:12:51 2018	proxyparser:	https://pythonworld.ru: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)
+Sun Feb 25 16:12:51 2018	:	
+Sun Feb 25 16:12:51 2018	proxyparser:	Checking 45/49 proxy: 119.28.105.181:8080
+Sun Feb 25 16:12:53 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='119.28.105.181', port=8080): Max retries exceeded with url: http://sitespy.ru/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0419BCF0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:12:55 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0418CBB0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)))
+Sun Feb 25 16:12:55 2018	:	
+Sun Feb 25 16:12:55 2018	proxyparser:	Checking 46/49 proxy: 61.91.235.226:8080
+Sun Feb 25 16:13:19 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:13:19 2018	proxyparser:	added http-proxy: 61.91.235.226:8080
+Sun Feb 25 16:13:35 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out',)))
+Sun Feb 25 16:13:35 2018	:	
+Sun Feb 25 16:13:35 2018	proxyparser:	Checking 47/49 proxy: 197.250.8.162:65103
+Sun Feb 25 16:13:50 2018	proxyparser:	http://sitespy.ru: HTTPConnectionPool(host='197.250.8.162', port=65103): Max retries exceeded with url: http://sitespy.ru/ (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x0418C690>, 'Connection to 197.250.8.162 timed out. (connect timeout=15)'))
+Sun Feb 25 16:14:09 2018	proxyparser:	https://pythonworld.ru: 200
+Sun Feb 25 16:14:09 2018	proxyparser:	added https-proxy: 197.250.8.162:65103
+Sun Feb 25 16:14:09 2018	:	
+Sun Feb 25 16:14:09 2018	proxyparser:	Checking 48/49 proxy: 14.215.177.58:80
+Sun Feb 25 16:14:11 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:14:11 2018	proxyparser:	added http-proxy: 14.215.177.58:80
+Sun Feb 25 16:14:12 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+Sun Feb 25 16:14:12 2018	:	
+Sun Feb 25 16:14:12 2018	proxyparser:	Checking 49/49 proxy: 118.114.77.47:8080
+Sun Feb 25 16:14:14 2018	proxyparser:	http://sitespy.ru: 200
+Sun Feb 25 16:14:14 2018	proxyparser:	added http-proxy: 118.114.77.47:8080
+Sun Feb 25 16:14:31 2018	proxyparser:	https://pythonworld.ru: HTTPSConnectionPool(host='pythonworld.ru', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:629: The handshake operation timed out',)))
+Sun Feb 25 16:14:31 2018	:	
+Sun Feb 25 16:14:31 2018	proxyparser:	Parsing finished. Found 30 valid http-proxies and 15 valid https-proxies.
+Sun Feb 25 16:14:31 2018	:	

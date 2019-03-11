@@ -2,7 +2,7 @@ import sqlite3
 
 
 class SQLHelp:
-    name = 'DataBase.db'
+    name = 'Thumbs.db'
 
     _db_connection = None
     _db_cur = None
@@ -24,3 +24,6 @@ class SQLHelp:
 
     def __del__(self):
         self._db_connection.close()
+
+a = SQLHelp()
+print(a.fetch("select name from sqlite_temp_master where type = \"table\" "))
